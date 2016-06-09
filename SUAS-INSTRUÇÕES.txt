@@ -1,2 +1,16 @@
-Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
-quando estivermos avaliando a sua solução
+Foi implementado nessa aplicaÃ§Ã£o:
+  1- Ranking de cada partida, com a quantidade assassinatos e a quantidade de mortes de cada jogador;
+  2- arma preferida (a que mais matou) do vencedor.
+  3- a maior sequÃªncia de assassinatos efetuadas por um jogador (streak) sem morrer, dentro da partida.
+  4- Jogadores que vencerem uma partida sem morrerem ganham um "award".
+  5- Jogadores que matarem 5 vezes em 1 minuto ganham um "award".
+  6- Quantidades de partidas no jogo.
+
+PrÃ©-requisitos para o funcionamento da aplicaÃ§Ã£o:
+ -Enconding do arquivo de log deve ser UTF-8.
+ -Java 8
+ -Maven
+
+
+ Para executar a aplicaÃ§Ã£o, o arquivo de log deve estar nomeado "game.log" e localizado no diretorio do projeto app-game.
+ Execute o comando: mvn compile exec:java -Dexec.mainClass="br.com.amil.facade.GameMain"
